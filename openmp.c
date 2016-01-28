@@ -5,7 +5,7 @@
 #include <math.h>
 #define SCALE 10000
 #define ARRINIT 2000
-#define MAX 10000
+#define MAX 100000
 
 
 /* Return 1 if the difference is negative, otherwise 0.  */

@@ -1,7 +1,7 @@
 CC = gcc
-CFLAGS= -fopenmp
+CXXFLAGS= -fopenmp
 all: hello
-hello: openmp.c
-	$(CC) $(CFLAGS) openmp.c -o hello -std=c11
+hello: openmp.cpp
+	$(CC) $(CXXFLAGS) openmp.cpp -o hello -std=c11
 clean:
 	rm hello

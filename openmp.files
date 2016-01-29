@@ -1,2 +1,2 @@
-openmp.c
+openmp.cpp
 Makefile
